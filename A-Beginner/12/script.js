@@ -1,8 +1,10 @@
 // Skriv en funktion och kalla på den
 
-const a = 5
-function gångraMedTre(a){
- result = 3 * a
+
+function multiplieThree(a){
+ return 3 * a
 }
 
-console.log (result)
+const y = multiplieThree(5)
+
+console.log (y)
